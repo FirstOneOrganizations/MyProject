@@ -10,4 +10,10 @@ public class HelloController {
     private String hello(){
         return "hello";
     }
+
+    @RequestMapping(value = "/success")
+    private String success(){
+        return "success";
+    }
+
 }
